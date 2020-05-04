@@ -1,0 +1,42 @@
+install Penn Forced Aligner 
+install HTK 
+write (bash) scripts to convert discourse transcripts to word-level transcripts
+write Praat scripts to exract many many formants
+
+
+followed instructions here: http://wstyler.ucsd.edu/posts/p2fa_mac.html
+HTKLib/esignal.c:
+
+export LC_CTYPE=C
+env variable: CPP
+
+
+
+
+128 transcript: 
+Has some non-ascii characters
+Has spanish, non quite suitable
+Uses dash "-" as both an orthographic character and a discourse metacharacter
+Line 671: "I didn�t realize", not sure why the tick doesn't render properly 
+Would be very help to have time stamps - if not for words, for speaker transitions. There is no mapping from word to speaker
+
+
+
+change in p2fa/model/dict
+MM M 
+ROUTE  R UW1 T
+ROUTES  R UW1 T S
+TEXTED  T EH1 K S T AH0 D
+ROUTINE  R UW1 T IH0 N
+HM HH M
+HMM HH M
+HMMM  HH AH1 M
+UNHUNH AH1 HH
+HEALTHWISE  HH EH1 L TH W AY2 Z
+SUBE S UW1 B EH1
+MEDICAMENTO M EH1 D IH0 K AH0 M EH1 N T OW0
+MENTALITIES M EH1 N T AE1 L IH1 T IH0 Z
+
+
+
+
